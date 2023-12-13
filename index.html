@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>َQuote Generator</title>
+
+    <link rel="stylesheet" href="webfonts/PermanentMarker-Regular.ttf">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+        <div class="col-lg-6 col-sm-8 quote-container shadow-lg">
+            <h1 class="mb-5 position-relative"><span>Q</span>uote of the Day</h1>
+
+            <section
+                class="quote-box w-100 rounded-3 my-4 p-3 d-flex flex-column justify-content-center align-items-center text-center position-relative">
+                <p id="quotes" class="mb-2 lead fw-semibold"></p>
+                <p id="writer" class="lead fw-bold text-uppercase"></p>
+
+                <div class="icon-container">
+                    <button onclick="speak()"><i class="fa-solid fa-volume-high"></i></button>
+                    <button onclick="copyQuote()"><i class="fa-solid fa-copy"></i></button>
+                    <button onclick="tweetQuote()"><i class="fab fa-twitter"></i></button>
+                </div>
+            </section>
+
+            <div class="my-3 w-100 d-flex align-items-center justify-content-center">
+                <button onclick="previousBtn()" type="button"
+                    class="btn1 me-3 d-flex align-items-center justify-content-center fw-semibold"><i
+                        class="fa-solid fa-arrow-left"></i>
+                </button>
+
+                <button onclick="nextBtn()" type="button"
+                    class="btn2 ms-3 d-flex align-items-center justify-content-center fw-semibold"><i
+                        class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
