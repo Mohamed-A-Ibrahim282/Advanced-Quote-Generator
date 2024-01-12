@@ -19,4 +19,4 @@ Technology Behind Daily Quotes:
 
 🔊 Speech Synthesis: The Text-to-Speech feature is powered by the Web Speech API, providing a natural and engaging way to experience the quotes.
 
-Live demo: https://mohamed-shahata.github.io/Advanced-Quote-Generator/
+Live demo: https://Mohamed-A-Ibrahim282.github.io/Advanced-Quote-Generator/
